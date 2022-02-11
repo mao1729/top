@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .mouse-stalker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1px;
+    height: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    pointer-events: none;
+    mix-blend-mode: exclusion;
+  }
+  
+  .mouse-stalker > div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    flex-shrink: 0;
+  }
+
+/* ごちゃごちゃしてるからもっと簡単にかけないかな？↓ */
+  .header-nav1 {
+    background-color: #f9fafb;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    flex-direction: row;
+    left: 31.944vw;
+    align-items: center;
+  }
+
+  .header-nav2 {
+    z-index: 99;
+    background-color: #f9fafb;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    left: 10.417vw;
+    align-items: center;
+  }
+
+  .header-nav3 {
+    z-index: 99;
+    background-color: #f9fafb;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    left: 0vw;
+  }
+
+  .logo {
+    display: flex;
+    position: fixed;
+    width: 4.792vw;
+    left: 5vw;
+  }
+
+  nav {
+    margin-right: 5%;
+  }
+  
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 0, 0);
+  }
+
+  .QyuuuM {
+    color: rgb(0, 153, 255);
+  }
+
+  .QyuuuM:hover {
+    color: rgb(243, 0, 0);
+  }
+/* ごちゃごちゃしてるからもっと簡単にかけないかな？↑ */
+
+  .left-block {
+    z-index: 100;
+    background-color: #ffffff;
+    position: fixed;
+    width: 2.083vw;
+    height: 100vh;
+    left: 0px;
+  }
+
+  .right-block {
+    z-index: 100;
+    background-color: #ffffff;
+    position: fixed;
+    width: 4.028vw;
+    height: 100vh;
+    right: 0vw;
+  }
+
+  .SNS-image-twitter {
+    display: flex;
+    position: fixed;
+    width: 2.431vw;
+    right: 0.764vw;
+    top: 119px;
+  }
+
+  .SNS-image-facebook {
+    display: flex;
+    position: fixed;
+    width: 2.569vw;
+    right: 0.764vw;
+    top: 182px;
+  }
+
+  .SNS-image-instagram {
+    display: flex;
+    position: fixed;
+    width: 2.431vw;
+    right: 0.764vw;
+    top: 253px;
+  }
