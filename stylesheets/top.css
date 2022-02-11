@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .mouse-stalker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1px;
+    height: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    pointer-events: none;
+    mix-blend-mode: exclusion;
+  }
+  
+  .mouse-stalker > div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    flex-shrink: 0;
+  }
+
+/* ごちゃごちゃしてるからもっと簡単にかけないかな？↓ */
+  .header-nav1 {
+    background-color: #f9fafb;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    flex-direction: row;
+    left: 31.944vw;
+    align-items: center;
+  }
+
+  .header-nav2 {
+    z-index: 99;
+    background-color: #f9fafb;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    left: 10.417vw;
+    align-items: center;
+  }
+
+  .header-nav3 {
+    z-index: 99;
+    background-color: #f9fafb;
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    left: 0vw;
+  }
+
+  .logo {
+    display: flex;
+    position: fixed;
+    width: 4.792vw;
+    left: 5vw;
+  }
+
+  nav {
+    margin-right: 5%;
+  }
+  
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 0, 0);
+  }
+
+  .QyuuuM {
+    color: rgb(0, 153, 255);
+  }
+
+  .QyuuuM:hover {
+    color: rgb(243, 0, 0);
+  }
+/* ごちゃごちゃしてるからもっと簡単にかけないかな？↑ */
+
+  .left-block {
+    z-index: 100;
+    background-color: #ffffff;
+    position: fixed;
+    width: 2.083vw;
+    height: 100vh;
+    left: 0px;
+  }
+
+  .right-block {
+    z-index: 100;
+    background-color: #ffffff;
+    position: fixed;
+    width: 4.028vw;
+    height: 100vh;
+    right: 0vw;
+  }
+
+  .SNS-image-twitter {
+    display: flex;
+    position: fixed;
+    width: 2.431vw;
+    right: 0.764vw;
+    top: 119px;
+  }
+
+  .SNS-image-facebook {
+    display: flex;
+    position: fixed;
+    width: 2.569vw;
+    right: 0.764vw;
+    top: 182px;
+  }
+
+  .SNS-image-instagram {
+    display: flex;
+    position: fixed;
+    width: 2.431vw;
+    right: 0.764vw;
+    top: 253px;
+  }
+
+  .first-block {
+    height: 1024px;
+    background-color: #f9fafb;
+  }
+
+  .VR-image {
+    display: flex;
+    position: absolute;  
+    width: 69.931vw;
+    left: 26.042vw;
+    top: 9.180vh;
+  }
+
+  .image2 {
+    display: flex;
+    position: absolute;
+    z-index: 90;
+    width: 36.875vw;
+    left: 3.958vw;
+    top: 307px;
+  }
+
+  .year {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 3.958vw;
+    top: 130px;
+  }
+
+  .day-block {
+    position: relative;
+    width: 40.556vw;
+    height: 70px;
+    top: 172px;
+    left: 3.958vw;
+    z-index: 80;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .day {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 5vw;
+    top: 20px;
+  }
+  
+
+  .Place-block {
+    position: relative;
+    width: 100vw;
+    height: 456px;
+    top: 595px;
+    left: 0px;
+    background-color: #0b171e54;
+  }
+
+  .Place {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 44.583vw;
+    top: 68px;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-bottom: 2px;
+  }
+
+  .word-break-place {
+    color: azure;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 44.583vw;
+    top: 221px;
+    letter-spacing: 0.12em;
+  }
+
+  .second-block {
+    background-color: #f9fafb;
+    height: 1024px;
+  }
+
+  .About {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 55px;
+    top: 1387px;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 2px;
+  }
+
+  .word-break-about {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 57px;
+    top: 1525px;
+    letter-spacing: 0.12em;
+  }
+
+  .funny-image {
+    display: flex;
+    position: absolute;  
+    width: 20.069vw;
+    left: 35.278vw;
+    top: 1369px;
+  }
+
+  .light-image {
+    display: flex;
+    position: absolute;  
+    width: 23.681vw;
+    left: 67.153vw;
+    top: 1273px;
+  }
+
+  .sekkei-image {
+    display: flex;
+    position: absolute;  
+    width: 23.681;
+    left: 59.653vw;
+    top: 1543px;
+  }
+  
+  .third-block {
+    background-color: #f9fafb;
+    height: 1024px;
+  }
+
+  .News {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 63px;
+    top: 2080px;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 2px;
+    transform: rotate(90deg);
+  }
+
+  .news-background {
+    position: absolute;
+    width: 77.361vw;
+    height: 1015px;
+    top: 2018px;
+    right: 3vw;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .news1-image {
+    display: flex;
+    position: absolute;  
+    left: 22.361vw;
+    top: 2060px;
+  }
+
+  .day-news1 {
+    display: flex;
+    position: absolute; 
+    color: rgb(255, 255, 255); 
+    left: 22.361vw;
+    top: 2312px;
+  }
+
+  .word-break-news1 {
+    display: flex;
+    position: absolute;  
+    color: rgb(255, 255, 255);
+    left: 22.361vw;
+    top: 2345px;
+  }
+
+  .news2-image {
+    display: flex;
+    position: absolute;  
+    left: 45.556vw;
+    top: 2098px;
+  }
+
+  .day-news2 {
+    display: flex;
+    position: absolute; 
+    color: rgb(255, 255, 255); 
+    left: 45.556vw;
+    top: 2350px;
+  }
+
+  .word-break-news2 {
+    display: flex;
+    position: absolute;  
+    color: rgb(255, 255, 255);
+    left: 45.556vw;
+    top: 2383px;
+  }
+
+  .news3-image {
+    display: flex;
+    position: absolute;  
+    left: 68.75vw;
+    top: 2137px;
+  }
+
+  .day-news3 {
+    display: flex;
+    position: absolute; 
+    color: rgb(255, 255, 255); 
+    left: 68.75vw;
+    top: 2383px;
+  }
+
+  .word-break-news3 {
+    display: flex;
+    position: absolute;  
+    color: rgb(255, 255, 255);
+    left: 68.75vw;
+    top: 2416px;
+  }
+
+  .more-block {
+    position: absolute;  
+    background-color: rgb(175, 175, 175);
+    width: 183px;
+    height: 37px;
+    left: 75.764vw;
+    top: 2625px;
+  }
+
+  .more {
+    display: flex;
+    position: absolute;  
+    color: rgb(0, 0, 0);
+    left: 63px;
+    top: 8px;
+  }
+
+  .fourth-block {
+    background-color: #f9fafb;
+    height: 174px;
+  }
+
+  .hakui-image {
+    display: flex;
+    position: absolute;  
+    left: 0px;
+    top: 2674px;
+  }
+  
+  footer{
+    background-color: rgb(255, 255, 255);
+    height: 247px;
+  }
+
+  .SNS-sharemark {
+    display: flex;
+    position: absolute;   
+    width: 2.639vw;
+    left: 40.056vw;
+    top: 3335px;
+  }
+
+  .sns-share-word {
+    display: flex;
+    position: absolute;  
+    color: rgb(0, 0, 0);
+    left: 46.458vw;
+    top: 3329px;
+  }
+  .SNS-image-twitter2 {
+    display: flex;
+    position: absolute;   
+    width: 3.472vw;
+    left: 42.083vw;
+    top: 3402px;
+  }
+
+  .SNS-image-facebook2 {
+    display: flex;
+    position: absolute;
+    width: 3.889vw;
+    left: 48.056vw;
+    top: 3394px;
+  }
+
+  .SNS-image-instagram2 {
+    display: flex;
+    position: absolute;
+    width: 3.889vw;
+    left: 54.444vw;
+    top: 3396px;
+  }
+  
